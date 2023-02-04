@@ -1,0 +1,68 @@
+li .navLink {
+  display: block;
+  color: #000;
+  /* width: 100%; */
+  /* background-color: aqua; */
+  text-decoration: none;
+  margin: 5px 8px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  outline: none;
+  background: transparent;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 30vh;
+}
+
+.navLink:hover {
+  background-color: #ef8276;
+  color: black;
+}
+
+li .navLinkActive {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #f33823;
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin: 5px 8px;
+  outline: none;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.logo {
+  position: absolute;
+  width: 142px;
+  height: 36px;
+  left: 67px;
+  top: 18px;
+
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: rgba(88, 74, 74, 0.74);
+}
