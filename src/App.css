@@ -1,0 +1,23 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background: #fffcfb;
+  display: flex;
+  flex-direction: row;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  background-color: #FFFCFB;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.body{
+  margin-top: 124px;
+  margin-left: 25%;
+}

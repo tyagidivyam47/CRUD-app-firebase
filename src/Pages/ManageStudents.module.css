@@ -1,0 +1,37 @@
+.body {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.body table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.body th,
+.body td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  /* text-align: center; */
+}
+
+.body tr:nth-child(even) {
+  background-color: #FFF6F5;
+}
+
+.body th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* text-align: left; */
+  background-color: #F33823;
+  color: white;
+}
+
+.card {
+  margin: 20px 40px;
+}
+
+img{
+    padding: 0 15px 0 10px;
+}

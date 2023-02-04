@@ -1,0 +1,54 @@
+.login {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  margin-left: 10%;
+  /* padding-left: 200%; */
+  padding: 2rem;
+}
+
+.inp {
+  margin: 1rem 0;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.inp label,
+.inp input {
+  display: block;
+}
+
+.inp label {
+  font-weight: bold;
+  flex: 1;
+  color: #464646;
+  margin-bottom: 0.5rem;
+}
+
+.inp input {
+  flex: 3;
+  font: inherit;
+  padding: 0.35rem 0.35rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login button {
+  font: inherit;
+  border: 1px solid #f33823;
+  background: #f33823;
+  color: white;
+  padding: 0.75rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.15rem;
+  border-radius: 30px;
+}
+
+.login button:hover {
+  background: #ef8276;
+}
+
+.error-msg {
+  color: red;
+}
